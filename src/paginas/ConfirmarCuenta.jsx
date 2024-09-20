@@ -14,7 +14,7 @@ const ConfirmarCuenta = () => {
 
     const params = useParams();
     const { id } = params;
-    
+    console.log(id)
 
 
     //vamos a leer el token/id con un useEffect() para que ejecute el código una vez que el componente este listo
